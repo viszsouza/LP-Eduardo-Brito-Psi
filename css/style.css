@@ -52,3 +52,55 @@
 .botao-saiba-mais {
     background-color: var(--cinza);
 }
+
+/* Especialidades */
+
+.especialidades {
+    padding: 100px;
+    background-color: var(--azul);
+    text-align: center;
+    letter-spacing: -.5px;
+    line-height: 1.4em;
+}
+
+.especialidades-titulo {
+    margin-bottom: 70px;
+    color: var(--branco);
+    font-size: 50px;
+}
+
+.especialidades-items {
+    display: grid;
+    justify-items: center;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 60px;
+}
+
+.especialidade {
+    width: 300px;
+    text-align: start;
+}
+
+.expecialidade-imagem-container {
+    margin-bottom: 30px;
+    width: 100%;
+    height: 293px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.especialidade-imagem {
+    width: 100%;
+}
+
+.especialidade-nome {
+    margin-bottom: 10px;
+    color: var(--branco);
+    font-weight: bold;
+    font-size: 23px;
+}
+
+.especialidade-descricao {
+    color: var(--branco);
+    font-size: 20px;
+}
