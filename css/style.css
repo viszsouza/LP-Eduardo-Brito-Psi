@@ -16,6 +16,7 @@
     margin-bottom: 20px;
     font-size: 50px;
     font-weight: bold;
+    text-align: center;
 }
 
 .titulo-span {
@@ -138,4 +139,28 @@ ul{
 
 #nav-link-last{
     color: var(--azul);
+}
+
+@media screen and (max-width: 390px) {
+
+    /* Início */
+    .inicio {
+        height: 350px;
+    }
+
+    .titulo {
+        width: 200px;
+        font-size: 28px;
+    }
+
+    .subtitulo {
+        width: 350px;
+        font-size: 18px;
+    }
+
+    .botao {
+        padding: 8px;
+        height: 35px;
+    }
+
 }
