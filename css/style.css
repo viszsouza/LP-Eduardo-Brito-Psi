@@ -1,5 +1,6 @@
 @import url("base.css");
 
+
 /* Início */
 .inicio {
     width: 100%;
@@ -53,8 +54,8 @@
     background-color: var(--cinza);
 }
 
-/* Especialidades */
 
+/* Especialidades */
 .especialidades {
     padding: 100px;
     background-color: var(--azul);
@@ -103,4 +104,38 @@
 .especialidade-descricao {
     color: var(--branco);
     font-size: 20px;
+}
+
+
+/* Header e Nav */
+header{
+    height: 64px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-logo{
+    width: 40px;
+    height: 40px;
+    margin-right: 20px;
+    border-radius: 100px;
+}
+
+#nav-lista{
+    display: flex;
+    gap: 20px;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.nav-link{
+    font-size: 15px;
+    color: var(--cinza-escuro);
+}
+
+#nav-link-last{
+    color: var(--azul);
 }
