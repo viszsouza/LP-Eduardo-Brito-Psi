@@ -163,4 +163,28 @@ ul{
         height: 35px;
     }
 
+    /* Especialidades */
+    .especialidades {
+        padding: 50px;
+    }
+
+    .especialidades-titulo {
+        font-size: 28px;
+        margin-bottom: 40px;
+    }
+
+    .especialidades-items {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .especialidade {
+        margin-bottom: 50px;
+    }
+    
+    .expecialidade-imagem-container {
+        margin: 0 auto 25px;
+        width: 300px;
+        height: 300px
+    }
 }
