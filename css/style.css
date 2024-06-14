@@ -55,6 +55,44 @@
     background-color: var(--cinza);
 }
 
+/* Sobre mim */
+.sobre-mim{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--verde);
+    padding: 50px;
+    gap: 50px;
+}
+
+.sobre-mim-images img{
+    width: 100%;
+    border-radius: 25px;
+    box-shadow: var(--shadow);
+    transition: 300ms;
+}
+
+.sobre-mim-images img:hover{
+    opacity: 0.8;
+    transform: scale(1.03);
+}
+
+.sobre-mim-textos{
+    width: 50%;
+}
+
+.sobre-mim-textos h2{
+    margin-bottom: 30px;
+    color: var(--branco);
+    font-size: 50px;
+}
+
+.sobre-mim-textos p{
+    text-align: justify;
+    color: var(--branco);
+    font-weight: 600;
+}
+
 
 /* Especialidades */
 .especialidades {
@@ -167,6 +205,16 @@ header{
         padding: 8px;
         height: 35px;
     }
+
+    /* Sobre mim */
+    .sobre-mim{
+        flex-direction: column;
+    }
+
+    .sobre-mim-textos{
+        width: 100%;
+    }
+
 
     /* Especialidades */
     .especialidades {
@@ -325,6 +373,16 @@ header{
         height: 35px;
     }
 
+    /* Sobre mim */
+    .sobre-mim{
+        flex-direction: column;
+    }
+
+    .sobre-mim-textos{
+        width: 100%;
+    }
+
+
     /* Especialidades */
     .especialidades {
         padding: 25px;
@@ -373,6 +431,16 @@ header{
     .nav-link{
         font-size: 32px;
     }
+
+    /* Sobre mim */
+    .sobre-mim{
+        flex-direction: column;
+    }
+
+    .sobre-mim-textos{
+        width: 100%;
+    }
+
 }
 
 @media only screen and (min-width: 459px) and (max-width: 599px) {
@@ -441,6 +509,15 @@ header{
         height: 35px;
     }
 
+    /* Sobre mim */
+    .sobre-mim{
+        flex-direction: column;
+    }
+
+    .sobre-mim-textos{
+        width: 100%;
+    }
+
     /* Especialidades */
     .especialidades {
         padding: 40px;
@@ -497,6 +574,15 @@ header{
     .botao {
         padding: 8px;
         height: 35px;
+    }
+
+    /* Sobre mim */
+    .sobre-mim{
+        flex-direction: column;
+    }
+
+    .sobre-mim-textos{
+        width: 100%;
     }
 
     /* Especialidades */
@@ -565,6 +651,15 @@ header{
     .botao {
         padding: 8px;
         height: 35px;
+    }
+
+    /* Sobre mim */
+    .sobre-mim{
+        flex-direction: column;
+    }
+
+    .sobre-mim-textos{
+        width: 100%;
     }
 
     /* Especialidades */
