@@ -440,6 +440,42 @@ header{
         padding: 8px;
         height: 35px;
     }
+
+    /* Especialidades */
+    .especialidades {
+        padding: 40px;
+    }
+
+    .especialidades-titulo {
+        font-size: 26px;
+        margin-bottom: 40px;
+    }
+
+    .especialidades-items {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .especialidade {
+        margin: 0 auto;
+        width: 300px;
+        margin-bottom: 40px;
+    }
+    
+    .expecialidade-imagem-container {
+        margin: 0 auto 25px;
+        width: 300px;
+        height: 300px
+    }
+
+    .especialidade-nome {
+        margin-bottom: 7.5px;
+        font-size: 22px;
+    }
+
+    .especialidade-descricao {
+        font-size: 18px;
+    }
 }
 @media only screen and (min-width: 599px) and (max-width: 767px) {}
 
