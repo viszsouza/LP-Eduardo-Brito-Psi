@@ -420,8 +420,8 @@ header{
         justify-content: center;
     }
 
-     /* Início */
-     .inicio {
+    /* Início */
+    .inicio {
         height: 310px;
         padding-bottom: 40px;
     }
@@ -477,6 +477,27 @@ header{
         font-size: 18px;
     }
 }
-@media only screen and (min-width: 599px) and (max-width: 767px) {}
+@media only screen and (min-width: 599px) and (max-width: 767px) {
+    /* Início */
+    .inicio {
+        height: 330px;
+        padding-bottom: 0;
+    }
+
+    .titulo {
+        width: 500px;
+        font-size: 28px;
+    }
+
+    .subtitulo {
+        width: 450px;
+        font-size: 18px;
+    }
+
+    .botao {
+        padding: 8px;
+        height: 35px;
+    }
+}
 
 @media only screen and (min-width: 767px) and (max-width: 992px) {}
