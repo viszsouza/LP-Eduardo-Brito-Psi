@@ -72,6 +72,7 @@
 }
 
 .especialidades-items {
+    margin: 0 auto;
     display: grid;
     justify-items: center;
     grid-template-columns: repeat(3, 1fr);
@@ -148,17 +149,18 @@ header{
 
     /* Início */
     .inicio {
-        height: 350px;
+        height: 300px;
+        padding-bottom: 30px;
     }
 
     .titulo {
         width: 200px;
-        font-size: 28px;
+        font-size: 26px;
     }
 
     .subtitulo {
-        width: 350px;
-        font-size: 18px;
+        width: 300px;
+        font-size: 16px;
     }
 
     .botao {
@@ -168,11 +170,11 @@ header{
 
     /* Especialidades */
     .especialidades {
-        padding: 50px;
+        padding: 25px;
     }
 
     .especialidades-titulo {
-        font-size: 28px;
+        font-size: 26px;
         margin-bottom: 40px;
     }
 
@@ -182,15 +184,25 @@ header{
     }
 
     .especialidade {
-        margin-bottom: 50px;
+        margin: 0 auto;
+        width: 250px;
+        margin-bottom: 35px;
     }
     
     .expecialidade-imagem-container {
         margin: 0 auto 25px;
-        width: 300px;
-        height: 300px
+        width: 250px;
+        height: 250px
     }
 
+    .especialidade-nome {
+        margin-bottom: 7.5px;
+        font-size: 20px;
+    }
+
+    .especialidade-descricao {
+        font-size: 16px;
+    }
 
     /* Header e Nav */
     header{
