@@ -80,14 +80,14 @@
 }
 
 .especialidade {
-    width: 300px;
+    width: min(100%, 300px);
     text-align: start;
 }
 
 .expecialidade-imagem-container {
     margin-bottom: 30px;
+    aspect-ratio: 1 / 1;
     width: 100%;
-    height: 293px;
     border-radius: 20px;
     overflow: hidden;
 }
@@ -477,7 +477,7 @@ header{
         font-size: 18px;
     }
 }
-@media only screen and (min-width: 599px) and (max-width: 767px) {
+@media only screen and (min-width: 599px) and (max-width: 766px) {
     /* Início */
     .inicio {
         height: 330px;
@@ -545,4 +545,25 @@ header{
     }
 }
 
-@media only screen and (min-width: 767px) and (max-width: 992px) {}
+@media only screen and (min-width: 767px) and (max-width: 992px) {
+    /* Início */
+    .inicio {
+        height: 330px;
+        padding-bottom: 0;
+    }
+
+    .titulo {
+        width: 500px;
+        font-size: 28px;
+    }
+
+    .subtitulo {
+        width: 450px;
+        font-size: 18px;
+    }
+
+    .botao {
+        padding: 8px;
+        height: 35px;
+    }
+}
