@@ -419,6 +419,27 @@ header{
     #nav-lista{
         justify-content: center;
     }
+
+     /* Início */
+     .inicio {
+        height: 310px;
+        padding-bottom: 40px;
+    }
+
+    .titulo {
+        width: 200px;
+        font-size: 28px;
+    }
+
+    .subtitulo {
+        width: 300px;
+        font-size: 18px;
+    }
+
+    .botao {
+        padding: 8px;
+        height: 35px;
+    }
 }
 @media only screen and (min-width: 599px) and (max-width: 767px) {}
 
