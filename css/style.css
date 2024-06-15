@@ -249,6 +249,54 @@ footer{
 
 /* Media Queries */
 @media screen and (max-width: 390px) {
+    /* Header e Nav */
+    header{
+        display: flex;
+        flex-direction: column;
+        padding: 12px;
+    }
+
+    .first-parte{
+        width: 100vw;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 24px;
+    }
+
+    .hamburguer{
+        display: block;
+    }
+
+    .hamburger {
+        position: fixed;
+        top: 26px;
+        right: 16px;
+    }
+
+    #abrirMenu{
+        position: absolute;
+        right: 48px;
+        top: 30px;
+    }
+
+    #fecharMenu{
+        display: none;
+    }
+
+    .nav{
+        display: none;
+        width: 100%;
+    }
+
+    #nav-lista{
+        padding-left: 12px;
+        flex-direction: column;
+    }
+
+    .nav-link{
+        font-size: 25px;
+    }
 
     /* Início */
     .inicio {
@@ -317,53 +365,20 @@ footer{
         font-size: 16px;
     }
 
-    /* Header e Nav */
-    header{
-        display: flex;
+
+    /* Footer */
+    /* Primeira parte */
+    .footer-sec{
         flex-direction: column;
-        padding: 12px;
+        gap: 50px;
     }
 
-    .first-parte{
-        width: 100vw;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        padding: 24px;
+    .footer-content{
+        width: auto;
     }
 
-    .hamburguer{
-        display: block;
-    }
-
-    .hamburger {
-        position: fixed;
-        top: 26px;
-        right: 16px;
-    }
-
-    #abrirMenu{
-        position: absolute;
-        right: 48px;
-        top: 30px;
-    }
-
-    #fecharMenu{
-        display: none;
-    }
-
-    .nav{
-        display: none;
-        width: 100%;
-    }
-
-    #nav-lista{
-        padding-left: 12px;
-        flex-direction: column;
-    }
-
-    .nav-link{
-        font-size: 25px;
+    #footer-sec2{
+        flex-direction: row;
     }
 }
 
@@ -483,9 +498,25 @@ footer{
     .especialidade-descricao {
         font-size: 18px;
     }
+
+
+    /* Footer */
+    /* Primeira parte */
+    .footer-sec{
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    #footer-sec2{
+        flex-direction: row;
+    }
+
+    .footer-content{
+        width: auto;
+    }
 }
 
-/* Media query extra para: Header e Nav*/
+/* Media query extra para: Header, Nav e Footer*/
 @media only screen and (min-width: 460px) and (max-width: 505px) {
     /* Header e Nav */
     #nav-lista{
@@ -506,6 +537,16 @@ footer{
         width: 100%;
     }
 
+    
+    /* Footer */
+    .footer-sec{
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .footer-content{
+        width: auto;
+    }
 }
 
 @media only screen and (min-width: 459px) and (max-width: 599px) {
@@ -553,6 +594,7 @@ footer{
         justify-content: center;
     }
 
+
     /* Início */
     .inicio {
         height: 310px;
@@ -574,6 +616,7 @@ footer{
         height: 35px;
     }
 
+
     /* Sobre mim */
     .sobre-mim{
         flex-direction: column;
@@ -582,6 +625,7 @@ footer{
     .sobre-mim-textos{
         width: 100%;
     }
+
 
     /* Especialidades */
     .especialidades {
@@ -617,6 +661,12 @@ footer{
 
     .especialidade-descricao {
         font-size: 18px;
+    }
+
+
+    /* Footer */
+    #footer-sec2{
+        flex-direction: row;
     }
 }
 
