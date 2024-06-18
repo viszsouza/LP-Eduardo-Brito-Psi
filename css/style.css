@@ -44,12 +44,18 @@
     font-size: 14px;
     font-weight: bold;
     box-shadow: var(--shadow);
+    transition: 300ms;
+}
+
+.botao:hover{
+    transform: scale(1.05);
 }
 
 .botao-agendamento {
     background-color: var(--azul);
     color: var(--branco);
 }
+
 
 .botao-saiba-mais {
     background-color: var(--cinza);
@@ -66,14 +72,17 @@
 }
 
 .sobre-mim-images img{
+    max-width: 500px;
     width: 100%;
+    max-height: 900px;
+    height: 100%;
     border-radius: 25px;
     box-shadow: var(--shadow);
     transition: 300ms;
 }
 
 .sobre-mim-images img:hover{
-    opacity: 0.8;
+    opacity: 0.9;
     transform: scale(1.03);
 }
 
@@ -93,6 +102,11 @@
     font-weight: 600;
 }
 
+.buttons-sobre-mim{
+    margin-top: 40px;
+    display: flex;
+    gap: 20px;
+}
 
 /* Especialidades */
 .especialidades {
@@ -128,6 +142,7 @@
     width: 100%;
     border-radius: 20px;
     overflow: hidden;
+    box-shadow: var(--shadow);
 }
 
 .especialidade-imagem {
@@ -214,7 +229,6 @@ header{
     .sobre-mim-textos{
         width: 100%;
     }
-
 
     /* Especialidades */
     .especialidades {
