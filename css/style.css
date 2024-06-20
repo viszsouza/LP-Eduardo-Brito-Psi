@@ -200,26 +200,20 @@ header{
 
 
 /* Como Funciona */
-
 section.info {
-
     font-family: 'Poppins', sans-serif;
     background-color: #76C893;
-
 }
 
 .Como-Funciona {
-
     padding: 0px 94px;
     padding-top: 40px;
     align-self: center;
     display: flex;
     flex-direction: column;
-
 }
 
 .Como-Funciona h1 {
-
     font-style: normal;
     font-weight: bold;
     font-size: 40px;
@@ -228,15 +222,12 @@ section.info {
     text-align: center;
     color: white;
     padding-top: 15px;
-
 }
 
 
 
 .divcards {
-
     padding-bottom: 80px;
-
 }
 
 
@@ -286,7 +277,6 @@ section.info {
     overflow: hidden;
     position: relative;
     transition: filter 0.5s cubic-bezier(.43, .41, .22, .91);
-    ;
 
     &::before {
         content: "";
@@ -464,8 +454,8 @@ footer{
 
     #abrirMenu{
         position: absolute;
-        right: 48px;
-        top: 30px;
+        right: 25px;
+        top: 35px;
     }
 
     #fecharMenu{
@@ -589,16 +579,10 @@ footer{
         display: block;
     }
 
-    .hamburger {
-        position: fixed;
-        top: 26px;
-        right: 16px;
-    }
-
     #abrirMenu{
         position: absolute;
         right: 48px;
-        top: 30px;
+        top: 45px;
     }
 
     #fecharMenu{
