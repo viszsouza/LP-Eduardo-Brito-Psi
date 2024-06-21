@@ -443,18 +443,14 @@ footer{
 
     .hamburguer{
         display: block;
-    }
-
-    .hamburger {
-        position: fixed;
-        top: 26px;
-        right: 16px;
+        font-size: 50px;
     }
 
     #abrirMenu{
+        display: block;
         position: absolute;
         right: 25px;
-        top: 35px;
+        top: 60px;
     }
 
     #fecharMenu{
@@ -467,7 +463,7 @@ footer{
     }
 
     #nav-lista{
-        padding-left: 12px;
+        padding-left: 30px;
         flex-direction: column;
     }
 
