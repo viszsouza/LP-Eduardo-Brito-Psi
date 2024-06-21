@@ -841,6 +841,11 @@ footer{
 }
 
 @media only screen and (min-width: 599px) and (max-width: 766px) {
+    /* Header */
+    header{
+        flex-direction: column;
+    }
+
     /* Início */
     .inicio {
         height: 330px;
