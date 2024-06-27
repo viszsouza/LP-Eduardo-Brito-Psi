@@ -197,6 +197,15 @@ header{
     font-size: 20px;
 }
 
+/* Beneficios */
+.beneficios{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--verdeAqua);
+    padding: 50px;
+    gap: 50px;
+}
 
 /* Como Funciona */
 section.info {
@@ -257,6 +266,7 @@ section.info {
     display: flex;
     flex-direction: column;
     overflow: hidden;
+    box-shadow: var(--shadow);
 }
 
 .card__content {
