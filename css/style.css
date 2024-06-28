@@ -547,6 +547,24 @@ footer{
         font-size: 16px;
     }
 
+    /* Como funciona */
+    .Como-Funciona {
+        padding: 0px 25px;
+        padding-top: 40px;
+        align-self: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .cards{
+
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-content: space-around;
+    }
+    /* Como funciona */
+
 
     /* Footer */
     /* Primeira parte */
@@ -677,6 +695,24 @@ footer{
         font-size: 18px;
     }
 
+    /* Como funciona */
+    .Como-Funciona {
+        padding: 0px 40px;
+        padding-top: 40px;
+        align-self: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .cards{
+
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-content: space-around;
+    }
+    /* Como funciona */
+
 
     /* Footer */
     /* Primeira parte */
@@ -715,7 +751,25 @@ footer{
         width: 100%;
     }
 
-    
+    /* Como funciona */
+    .Como-Funciona {
+        padding: 0px 70px;
+        padding-top: 40px;
+        align-self: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .cards{
+
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-content: space-around;
+    }
+    /* Como funciona */
+
+
     /* Footer */
     .footer-sec{
         flex-direction: column;
@@ -841,6 +895,24 @@ footer{
         font-size: 18px;
     }
 
+    /* Como Funciona */
+    .Como-Funciona {
+        padding: 0px 83px;
+        padding-top: 40px;
+        align-self: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .cards{
+
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-content: space-around;
+    }
+
+    /* Como Funciona */
 
     /* Footer */
     #footer-sec2{
@@ -928,6 +1000,25 @@ footer{
     .especialidade-descricao {
         font-size: 18px;
     }
+
+    /* Como Funciona */
+
+    .Como-Funciona {
+        padding: 0px 35px;
+        padding-top: 40px;
+        align-self: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .cards{
+
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-content: space-around;
+    }
+
 }
 
 @media only screen and (min-width: 767px) and (max-width: 992px) {
@@ -999,4 +1090,22 @@ footer{
     .especialidade-descricao {
         font-size: 16px;
     }
+
+    /* Como Funciona */
+    .Como-Funciona {
+        padding: 0px 25px;
+        padding-top: 40px;
+        align-self: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+
+    .cards{
+
+        flex-wrap: nowrap;
+    
+    }
+
 }
