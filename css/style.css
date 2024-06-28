@@ -219,6 +219,7 @@ section.info {
     align-self: center;
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
 .Como-Funciona h1 {
@@ -255,6 +256,7 @@ section.info {
         width: 50%;
     }
 
+
     @media(min-width: 56rem) {
         width: 33.3333%;
     }
@@ -280,12 +282,12 @@ section.info {
 .card__image {
     background-position: center center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     border-top-left-radius: 0.25rem;
     border-top-right-radius: 0.25rem;
     overflow: hidden;
     position: relative;
-    transition: filter 0.5s cubic-bezier(.43, .41, .22, .91);
+    margin-top: 15px;
 
     &::before {
         content: "";
@@ -301,17 +303,15 @@ section.info {
 }
 
 .card__image--um {
-    background-image: url("https://picsum.photos/120");
+    background-image: url("../images/modalidade.png");
 }
 
 .card__image--dois {
-    background-image: url("https://picsum.photos/120");
+    background-image: url("../images/duração.png");
 }
 
 .card__image--tres {
-    background-image: url("https://picsum.photos/120");
-
-
+    background-image: url("../images/flexibilidade.png");
 }
 
 .card__title {
