@@ -448,7 +448,7 @@ footer{
 
 /* Media Queries */
 @media screen and (max-width: 390px) {
-    /* Header e Nav */
+    /* Header e Nav 
     header{
         display: flex;
         flex-direction: column;
@@ -492,6 +492,8 @@ footer{
     .nav-link{
         font-size: 25px;
     }
+
+    */
 
     /* Início */
     .inicio {
@@ -595,7 +597,7 @@ footer{
 }
 
 @media only screen and (min-width: 390px) and (max-width: 459px) {
-    /* Header e Nav */
+    /* Header e Nav 
     header{
         display: flex;
         flex-direction: column;
@@ -639,6 +641,8 @@ footer{
     .nav-link{
         font-size: 25px;
     }
+
+    */
 
     /* Início */
     .inicio {
@@ -744,7 +748,7 @@ footer{
 
 /* Media query extra para: Header, Nav e Footer*/
 @media only screen and (min-width: 460px) and (max-width: 505px) {
-    /* Header e Nav */
+    /* Header e Nav 
     #nav-lista{
         padding-left: 24px;
         flex-direction: column;
@@ -753,6 +757,8 @@ footer{
     .nav-link{
         font-size: 32px;
     }
+
+    */
 
     /* Sobre mim */
     .sobre-mim{
@@ -794,7 +800,7 @@ footer{
 }
 
 @media only screen and (min-width: 459px) and (max-width: 599px) {
-    /* Header e Nav */
+    /* Header e Nav 
     header{
         display: flex;
         flex-direction: column;
@@ -838,6 +844,7 @@ footer{
         font-size: 32px;
     }
 
+    */
 
     /* Início */
     .inicio {
@@ -933,10 +940,12 @@ footer{
 }
 
 @media only screen and (min-width: 599px) and (max-width: 766px) {
-    /* Header */
+    /* Header 
     header{
         flex-direction: column;
     }
+
+    */
 
     /* Início */
     .inicio {
@@ -958,6 +967,8 @@ footer{
         padding: 8px;
         height: 35px;
     }
+
+    
 
     /* Sobre mim */
     .sobre-mim{
