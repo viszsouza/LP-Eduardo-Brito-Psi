@@ -123,6 +123,10 @@ nav{
         justify-content: space-between;
     }
 
+    .roxo{
+        color: var(--branco);
+    }
+
     .nav-list{
         position: fixed;
         top: 0;
