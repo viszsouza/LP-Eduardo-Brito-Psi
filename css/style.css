@@ -30,10 +30,20 @@ header{
 .nav-link{
     font-size: 20px;
     color: var(--cinza-escuro);
+    transition: 300ms;
+}
+
+.nav-link:hover{
+    color: var(--azul);
 }
 
 #nav-link-last{
     color: var(--azul);
+    transition: 300ms;
+}
+
+#nav-link-last:hover{
+    color: var(--verde);
 }
 
 
