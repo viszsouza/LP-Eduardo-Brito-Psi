@@ -1,7 +1,7 @@
 @import url("base.css");
 
 
-/* Header e Nav */
+/* Header e Nav 
 header{
     padding: 12px 0;
     display: flex;
@@ -45,6 +45,8 @@ header{
 #nav-link-last:hover{
     color: var(--verde);
 }
+
+*/
 
 
 /* Início */
